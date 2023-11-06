@@ -1,0 +1,147 @@
+/* *************************** */
+/* Navigation */
+/* *************************** */
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 3.4rem;
+  background: #fdf2e9;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+  list-style: none;
+}
+/* *************************** */
+/* Hero section */
+/* *************************** */
+
+.hero-container {
+  height: 90vh;
+  background-color: #fdf2e9;
+  padding: 0 9.2rem;
+}
+
+.hero-elements {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 7.2rem 0;
+}
+
+.hero-text-box {
+  padding: 0 1.8rem;
+}
+
+.hero-img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.customer-img {
+  display: inline-block;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+.customer-img:not(:first-child) {
+  margin-left: -2rem;
+}
+
+.customer-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.customer-text span {
+  color: #cf711f;
+}
+
+/* *************************** */
+/* Featured in */
+/* *************************** */
+
+.featured-in {
+  padding: 5.4rem 0;
+  text-align: center;
+}
+
+.feature-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.2rem;
+}
+
+.feature-img {
+  height: 3.2rem;
+  filter: brightness(0) opacity(0.5);
+}
+
+/* *************************** */
+/* How it works*/
+/* *************************** */
+
+.how-it-works {
+  padding: 6.4rem 0;
+}
+
+.step-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.step-number {
+  font-size: 8.4rem;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.img-conteiner {
+  height: 42.8rem;
+  position: relative;
+}
+
+.img-conteiner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160%;
+  height: 80%;
+  background-color: green;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.step-img {
+  height: 100%;
+}
