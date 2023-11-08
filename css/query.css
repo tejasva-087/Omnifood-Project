@@ -1,0 +1,105 @@
+/* **************************** */
+/* Screen-size: 1800px */
+/* **************************** */
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* **************************** */
+/* Screen-size: 1400px */
+/* **************************** */
+@media (max-width: 87.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* **************************** */
+/* Screen-size: 1200px */
+/* **************************** */
+@media (max-width: 77.3125em) {
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .customer-text {
+    font-size: 1.6rem;
+  }
+
+  .margin-bottom-big-1 {
+    margin-bottom: 5.2rem;
+  }
+}
+
+/* **************************** */
+/* Screen-size: 1050px */
+/* **************************** */
+@media (max-width: 65.625em) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section {
+    margin: 0 7.2rem;
+  }
+
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-img {
+    grid-row: 1;
+    width: 30%;
+  }
+
+  .hero-btn-box,
+  .hero-customer-box {
+    justify-content: center;
+  }
+}
+
+/* **************************** */
+/* Screen-size: 700px */
+/* **************************** */
+@media (max-width: 43.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-img {
+    width: 45%;
+  }
+}
+
+/* **************************** */
+/* Screen-size: 530px */
+/* **************************** */
+@media (max-width: 33.125em) {
+  .hero-section {
+    margin: 0 2.8rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-btn-box,
+  .hero-customer-box {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .margin-bottom-small-1 {
+    margin-bottom: 2.8rem;
+  }
+
+  .margin-bottom-small-2 {
+    margin-bottom: 4rem;
+  }
+}

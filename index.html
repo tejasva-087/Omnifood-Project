@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicon -->
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,153 +10,79 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/query.css" />
     <!-- Title -->
     <title>Omnifood &mdash; never cook again!</title>
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="nav-bar">
-      <img src="/img/omnifood-logo.png" alt="Omnifood logo" class="logo" />
-      <ul class="nav-list">
-        <li class="nav-items">
-          <a href="#" class="btn">How it works</a>
-        </li>
-        <li class="nav-items"><a href="#" class="btn">Meals</a></li>
-        <li class="nav-items">
-          <a href="#" class="btn">Testimonials</a>
-        </li>
-        <li class="nav-items"><a href="#" class="btn">Pricing</a></li>
-        <li class="nav-items">
-          <a href="#" class="btn btn--main btn--orange">Try for free</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Hero Section -->
-    <div class="hero-container">
-      <div class="hero-elements">
+    <header class="main-header">
+      <div class="hero-section">
         <div class="hero-text-box">
-          <h1 class="heading-primary margin-bottom-medium">
+          <h1 class="heading-primary margin-bottom-small-1">
             A healthy meal delivered to your door, every single day
           </h1>
-          <p class="text margin-bottom-intermediate">
+          <p class="text margin-bottom-small-2">
             The smart 365-days-per-year food subscription that will make you eat
             healthy again. Tailored to your personal tastes and nutritional
             needs.
           </p>
-          <div class="hero-btn margin-bottom-big">
-            <a href="#" class="btn btn--main btn--orange">Start eatnig well</a>
-            <a href="#" class="btn btn--main btn--white">Learn more &darr;</a>
+          <div class="hero-btn-box margin-bottom-big-1">
+            <a href="#" class="btn btn--orange">Start eating well</a>
+            <a href="#" class="btn btn--white">Learn more &darr;</a>
           </div>
-          <div class="customers">
-            <div class="customer-img">
+          <div class="hero-customer-box">
+            <div class="customers">
               <img
                 src="/img/customers/customer-1.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
               <img
                 src="/img/customers/customer-2.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
               <img
                 src="/img/customers/customer-3.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
               <img
                 src="/img/customers/customer-4.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
               <img
                 src="/img/customers/customer-5.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
               <img
                 src="/img/customers/customer-6.jpg"
-                alt="customer"
+                alt="Faces of the customers using Omnifood"
                 class="customer-img"
               />
             </div>
-            <div class="customer-text">
+            <p class="customer-text">
               <span>250,000+</span> meals delivered last year!
-            </div>
+            </p>
           </div>
         </div>
         <div class="hero-img-box">
-          <img
-            src="/img/hero.png"
-            alt="A women enjoying delicious meal with some beautiful meals."
-            class="hero-img"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Featured in -->
-    <div class="featured-in">
-      <p class="heading-caps heading-caps--grey margin-bottom-small">
-        As featured in
-      </p>
-      <div class="feature-img-box">
-        <img
-          src="/img/logos/techcrunch.png"
-          alt="techcrunch"
-          class="feature-img"
-        />
-        <img
-          src="/img/logos/business-insider.png"
-          alt="Business insiders"
-          class="feature-img"
-        />
-        <img
-          src="/img/logos/the-new-york-times.png"
-          alt="The newyork times"
-          class="feature-img"
-        />
-        <img src="/img/logos/forbes.png" alt="Forbes" class="feature-img" />
-        <img
-          src="/img/logos/usa-today.png"
-          alt="USA today"
-          class="feature-img"
-        />
-      </div>
-    </div>
-    <!-- How it works -->
-    <article class="how-it-works main-container">
-      <p class="heading-caps heading-caps--orange margin-bottom-small">
-        How it wors
-      </p>
-      <h2 class="heading-secondary margin-bottom-big">
-        Your daily dose of health in 3 simple steps
-      </h2>
-      <div class="step-box">
-        <div class="step-text-box">
-          <p class="step-number margin-bottom-small">01</p>
-          <h3 class="heading-tertiary margin-bottom-small">
-            Tell us what you like (and what not)
-          </h3>
-          <p class="text">
-            Never again waste time thinking about what to eat! Omnifood AI will
-            create a 100% personalized weekly meal plan just for you. It makes
-            sure you get all the nutrients and vitamins you need, no matter what
-            diet you follow!
-          </p>
-        </div>
-        <div class="step-img-box">
-          <div class="img-conteiner">
+          <div class="img-container">
             <img
-              src="/img/app/app-screen-1.png"
-              alt="Perview of omnifood application."
-              class="step-img"
+              src="/img/hero.png"
+              alt="A women enjoying delicious meals along with some containers of meals."
+              class="hero-img"
             />
           </div>
         </div>
       </div>
-    </article>
+    </header>
   </body>
-</html>œ
+</html>
