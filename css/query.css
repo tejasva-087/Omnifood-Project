@@ -31,16 +31,16 @@
   .customer-text {
     font-size: 1.6rem;
   }
-
-  .margin-bottom-big-1 {
-    margin-bottom: 5.2rem;
-  }
 }
 
 /* **************************** */
 /* Screen-size: 1050px */
 /* **************************** */
 @media (max-width: 65.625em) {
+  .margin-bottom-big-1 {
+    margin-bottom: 5.2rem;
+  }
+
   .hero-section {
     grid-template-columns: 1fr;
   }
