@@ -31,6 +31,10 @@
   .customer-text {
     font-size: 1.6rem;
   }
+
+  .featured-img {
+    height: 3rem;
+  }
 }
 
 /* **************************** */
@@ -62,6 +66,10 @@
   .hero-customer-box {
     justify-content: center;
   }
+
+  .featured-img {
+    height: 2.4rem;
+  }
 }
 
 /* **************************** */
@@ -74,6 +82,14 @@
 
   .hero-img {
     width: 45%;
+  }
+
+  .featured-img-box {
+    gap: 2.4rem;
+  }
+
+  .featured-img {
+    height: 2rem;
   }
 }
 
@@ -101,5 +117,10 @@
 
   .margin-bottom-small-2 {
     margin-bottom: 4rem;
+  }
+
+  .featured-img-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

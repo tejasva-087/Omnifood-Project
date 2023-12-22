@@ -55,3 +55,32 @@
 .customer-text span {
   color: #cf711f;
 }
+
+/* **************************** */
+/* Featured-in section */
+/* **************************** */
+
+.featured-in {
+  text-align: center;
+  padding: 4.2rem 0;
+}
+
+.featured-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.featured-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.2rem;
+}
+
+.featured-img {
+  height: 3.4rem;
+  filter: brightness(0) opacity(0.5);
+}
